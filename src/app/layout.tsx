@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import {
+  nanum_Pen_Script,
+  slackside_One,
+  single_Day,
+  just_Me_Again_Down_Here,
+  truculenta,
+  gaegu,
+  grandstander,
+  gochi_Hand,
+} from "@/app/lib/fonts";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${gaegu.className}`}>{children}</body>
     </html>
   );
 }
