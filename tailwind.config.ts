@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-inter)"],
+        gaegu: ["gaegu", "serif"],
+        inter: ["inter", "sans"],
       },
     },
   },
