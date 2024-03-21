@@ -1,14 +1,5 @@
 import type { Metadata } from "next";
-import {
-  nanum_Pen_Script,
-  slackside_One,
-  single_Day,
-  just_Me_Again_Down_Here,
-  truculenta,
-  gaegu,
-  grandstander,
-  gochi_Hand,
-} from "@/app/lib/fonts";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${gaegu.className}`}>{children}</body>
+      {/* <body className="bg-gradient-to-t from-purple-200 via-green-200 to-yellow-200 "></body> */}
+      {/* bg-gradient-to-t from-orange-100 to-yellow-10 */}
+      <body className="bg-white">{children}</body>
     </html>
   );
 }

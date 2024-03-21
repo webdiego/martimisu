@@ -1,10 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html {
-  font-family: var(--font-inter);
+
+@font-face {
+  font-family: "gaegu";
+  font-display: swap;
+  font-weight: normal;
+  font-weight: 400;
+  src: url("/fonts/Gaegu-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "gaegu";
+  font-display: swap;
+  font-weight: bold;
+  font-weight: 800;
+  src: url("/fonts/Gaegu-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "inter";
+  font-display: swap;
+  font-weight: normal;
+  font-weight: 400;
+  src: url("/fonts/Inter-Regular.woff2") format("woff2");
 }
 
-h1 {
-  font-family: var(--font-roboto-mono);
+html {
+  font-family: inter;
 }
