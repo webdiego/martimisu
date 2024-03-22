@@ -1,5 +1,7 @@
-import { motion } from "framer-motion";
-
+"use client";
+import { easeIn, motion } from "framer-motion";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 export function Title() {
   const words = "Martimisu";
   const letters = words.split("");
@@ -10,7 +12,7 @@ export function Title() {
       y: 0,
       opacity: 1,
       transition: {
-        delay: i * 0.05, // Delay each letter's animation by 0.05 seconds
+        delay: i * 0.08, // Delay each letter's animation
       },
     }),
   };
