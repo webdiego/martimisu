@@ -11,8 +11,9 @@ export default function Tiramisu() {
           Our tiramisu
         </h3>
         <p className="text-center mt-2 text-gray-700">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-          voluptates doloribus
+          Indulge in the unparalleled richness of our artisanal tiramisu,
+          meticulously crafted with the finest ingredients and authentic Italian
+          tradition, ensuring each bite is a symphony of flavor and love.
         </p>
       </div>
       <div className="max-w-5xl mx-auto items-center justify-center">

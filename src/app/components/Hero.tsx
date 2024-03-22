@@ -32,11 +32,15 @@ export default function Hero() {
             variants={variants1}
             className="flex flex-col items-center h-full"
           >
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+            <p className="mt-6 text-lg leading-8 text-gray-600 font-medium">
+              Discover the Artisanal Paradise of Our Tiramisu!
             </p>
+            <p className="mt-2 text-base leading-8 text-gray-600">
+              Experience the artisanal bliss of our tiramisu: a decadent delight
+              meticulously crafted with the finest ingredients and authentic
+              Italian tradition
+            </p>
+
             <a href="#tiramisu">
               <CircleArrowDown
                 strokeWidth={1.5}
