@@ -3,10 +3,10 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="max-w-5xl mx-auto px-3 mt-36">
+    <div id="contact" className="max-w-5xl mx-auto px-3 pt-36">
       <div>
         <div className="flex flex-col items-center justify-center">
-          <h3 className="text-5xl md:text-6xl font-gaegu font-bold text-center uppercase">
+          <h3 className="text-4xl md:text-6xl font-gaegu font-bold text-center uppercase">
             Contact
           </h3>
           <p className="text-center mt-4 text-gray-700">

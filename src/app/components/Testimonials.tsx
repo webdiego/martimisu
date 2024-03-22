@@ -3,7 +3,10 @@ import A_1 from "./avatars/A_1";
 import A_2 from "./avatars/A_2";
 export default function Testimonials() {
   return (
-    <div className="max-w-5xl mx-auto px-3 flex flex-col items-center mt-36 ">
+    <div
+      id="testimonials"
+      className="max-w-5xl mx-auto px-3 flex flex-col items-center pt-36 "
+    >
       <h3 className="text-4xl md:text-6xl font-gaegu font-bold text-center uppercase">
         Greedy testimonials
       </h3>
@@ -11,9 +14,9 @@ export default function Testimonials() {
         These are some of happy customer that enjoyed the product
       </p>
 
-      <div className="flex flex-col md:flex-row mt-20  p-2 ">
+      <div className="flex flex-col md:flex-row mt-20 p-2 max-w-4xl mx-auto gap-5">
         {/* First review */}
-        <div className="flex flex-col items-center md:items-start w-full md:w-1/2 ">
+        <div className="flex flex-col items-center md:items-start w-full md:w-1/2">
           <p className="text-gray-700 text-center md:text-left">
             “Amet amet eget scelerisque tellus sit neque faucibus non eleifend.
             Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus
@@ -31,7 +34,7 @@ export default function Testimonials() {
         </div>
         {/* Second review */}
 
-        <div className="flex flex-col items-center md:items-start md:pl-4 w-full md:w-1/2 mt-20 md:mt-0 ">
+        <div className="flex flex-col items-center md:items-start  w-full md:w-1/2 mt-20 md:mt-0 ">
           <p className="text-gray-700 text-center md:text-left">
             “Amet amet eget scelerisque tellus sit neque faucibus non eleifend.
             Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus

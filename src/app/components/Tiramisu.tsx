@@ -5,10 +5,10 @@ import S_3 from "./shapes/S_3";
 
 export default function Tiramisu() {
   return (
-    <div>
+    <div id="tiramisu" className="pt-10">
       <div className="max-w-5xl mx-auto px-3 flex flex-col items-center">
         <h3 className="text-4xl md:text-6xl font-gaegu font-bold uppercase">
-          Our selection
+          Our tiramisu
         </h3>
         <p className="text-center mt-2 text-gray-700">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -38,7 +38,7 @@ export default function Tiramisu() {
         <div className="grid grid-cols-1 md:grid-cols-2 px-3 mt-32">
           <div className="p-5 h-96 order-first md:order-last">
             <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
-              PistacchioMisu
+              Pistacchiomisu
             </h1>
             <p className="text-gray-600 mt-4">
               Delight in the nutty perfection of pistachio tiramisu:

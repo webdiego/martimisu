@@ -5,10 +5,10 @@ import { X, Menu } from "lucide-react";
 import { motion } from "framer-motion";
 
 const navigation = [
-  { name: "Tiramisu", href: "#" },
-  { name: "Behind the scene", href: "#" },
-  { name: "Testimonials", href: "#" },
-  { name: "Contacts", href: "#" },
+  { name: "Tiramisu", href: "#tiramsisu" },
+  { name: "Behind the scene", href: "#behind" },
+  { name: "Testimonials", href: "#testimonials" },
+  { name: "Contacts", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -83,9 +83,10 @@ export default function Navbar() {
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
                   <a
+                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-2xl font-semibold font-gaegu leading-7 text-gray-800 hover:bg-gray-50"
                   >
                     {item.name}
                   </a>

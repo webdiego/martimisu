@@ -2,7 +2,10 @@ import React from "react";
 
 export default function BehindScene() {
   return (
-    <div className="max-w-5xl mx-auto px-3 flex flex-col items-center mt-36 ">
+    <div
+      id="behind"
+      className="max-w-5xl mx-auto px-3 flex flex-col items-center pt-36 "
+    >
       <h3 className="text-4xl md:text-6xl font-gaegu font-bold text-center uppercase">
         Behind savoiardi and mascarpone
       </h3>

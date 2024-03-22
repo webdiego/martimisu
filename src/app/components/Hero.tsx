@@ -37,20 +37,13 @@ export default function Hero() {
               lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
               fugiat aliqua.
             </p>
-            <CircleArrowDown
-              strokeWidth={1.5}
-              className="animate-bounce w-8 h-8 text-gray-700 mt-44"
-            />
+            <a href="#tiramisu">
+              <CircleArrowDown
+                strokeWidth={1.5}
+                className="animate-bounce w-8 h-8 text-gray-700 mt-44"
+              />
+            </a>
           </motion.div>
-
-          <div className="mt-10 flex flex-col items-center justify-center ">
-            {/* <button
-              type="button"
-              className="text-white bg-pink-400 hover:bg-pink-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              Give me some sweet
-            </button> */}
-          </div>
         </div>
       </div>
 
