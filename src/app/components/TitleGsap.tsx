@@ -8,23 +8,23 @@ export function Title() {
 
   useEffect(() => {
     const tl = gsap.timeline();
-    const elements = containerRef.current.querySelectorAll("h1");
+    // const elements = containerRef.current.querySelectorAll("h1");
 
-    elements.forEach((element, i) => {
-      tl.fromTo(
-        element,
-        {
-          y: 50,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.5,
-          ease: "elastic",
-        }
-      );
-    });
+    // elements.forEach((element, i) => {
+    //   tl.fromTo(
+    //     element,
+    //     {
+    //       y: 50,
+    //       opacity: 0,
+    //     },
+    //     {
+    //       y: 0,
+    //       opacity: 1,
+    //       duration: 0.5,
+    //       ease: "elastic",
+    //     }
+    //   );
+    // });
   }, []);
 
   return (
