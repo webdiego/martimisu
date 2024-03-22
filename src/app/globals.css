@@ -5,23 +5,40 @@
 @font-face {
   font-family: "gaegu";
   font-display: swap;
-  font-weight: normal;
   font-weight: 400;
   src: url("/fonts/Gaegu-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "gaegu";
   font-display: swap;
-  font-weight: bold;
   font-weight: 800;
   src: url("/fonts/Gaegu-Bold.woff2") format("woff2");
 }
 @font-face {
   font-family: "inter";
   font-display: swap;
-  font-weight: normal;
   font-weight: 400;
   src: url("/fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "inter";
+  font-display: swap;
+  font-weight: 500;
+  src: url("/fonts/Inter-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "inter";
+  font-display: swap;
+  font-weight: 600;
+  src: url("/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "inter";
+  font-display: swap;
+  font-weight: bold;
+  font-weight: 800;
+  src: url("/fonts/Inter-Bold.woff2") format("woff2");
 }
 
 html {
