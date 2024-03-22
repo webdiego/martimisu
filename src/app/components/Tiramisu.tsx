@@ -7,7 +7,7 @@ export default function Tiramisu() {
   return (
     <div>
       <div className="max-w-5xl mx-auto px-3 flex flex-col items-center">
-        <h3 className="text-4xl md:text-6xl font-gaegu font-bold">
+        <h3 className="text-4xl md:text-6xl font-gaegu font-bold uppercase">
           Our selection
         </h3>
         <p className="text-center mt-2 text-gray-700">
@@ -21,7 +21,7 @@ export default function Tiramisu() {
             <S_1 className="fill-red-200 max-w-lg mx-auto" />
           </div>
           <div className="h-96 p-5">
-            <h1 className="text-5xl font-gaegu font-bold text-gray-800">
+            <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Classic tiramisu
             </h1>
             <p className="text-gray-600 mt-4">
@@ -37,7 +37,7 @@ export default function Tiramisu() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 px-3 mt-32">
           <div className="p-5 h-96 order-first md:order-last">
-            <h1 className="text-5xl font-gaegu font-bold text-gray-800">
+            <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               PistacchioMisu
             </h1>
             <p className="text-gray-600 mt-4">
@@ -61,7 +61,7 @@ export default function Tiramisu() {
             <S_3 className="fill-yellow-200" />
           </div>
           <div className="p-5 h-96">
-            <h1 className="text-5xl font-gaegu font-bold text-gray-800">
+            <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Lemonsu
             </h1>
             <p className="text-gray-600 mt-4">
