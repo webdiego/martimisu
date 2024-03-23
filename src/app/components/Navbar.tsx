@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { X, Menu } from "lucide-react";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 const navigation = [
   { name: "Tiramisu", href: "#tiramsisu" },
   { name: "Behind the scene", href: "#behind" },
@@ -31,6 +31,13 @@ export default function Navbar() {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
+            <Image
+              src="marti.svg"
+              alt="m"
+              width={1000}
+              height={1000}
+              className="w-12 h-12"
+            />
             <span className="sr-only">Your Company</span>
           </a>
         </div>
