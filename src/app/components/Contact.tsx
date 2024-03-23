@@ -12,29 +12,35 @@ export default function Contact() {
         <S_5 className="fill-pink-200 w-44 h-44" />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center max-w-5xl mx-auto mt-10 gap-x-5">
-        <div className="w-full md:w-1/2 space-y-5 flex flex-col items-start">
-          <h3 className="text-4xl md:text-5xl font-gaegu font-bold text-center uppercase">
-            Contact
-          </h3>
-          <p className="text-left  text-gray-700 pr-10">
-            This information will be displayed publicly so be careful what you
-            share.
-          </p>
-          <div className="flex mt-10">
-            <Phone className="w-6 h-6 text-gray-700 mr-2" />
-            <p>5949330202</p>
+        <div className="w-full md:w-1/2 self-start ">
+          <div className="w-full flex flex-col items-start">
+            <h3 className="text-4xl md:text-5xl font-gaegu font-bold text-center uppercase">
+              Contact
+            </h3>
+            <p className="text-left text-gray-700 pr-10">
+              This information will be displayed publicly so be careful what you
+              share.
+            </p>
           </div>
-          <div className="flex">
-            <Mail className="w-6 h-6 text-gray-700 mr-2" />
-            <p>martimisu@mail.com</p>
-          </div>
-          <div className="flex">
-            <MapPin className="w-6 h-6 text-gray-700 mr-2" />
-            <p>Cairns, QLD</p>
+          <div className="space-y-4 ">
+            <div className="flex mt-10">
+              <Phone className="w-5 h-5 text-gray-700 mr-2" />
+              <p>5949330202</p>
+            </div>
+            <div className="flex">
+              <Mail className="w-5 h-5 text-gray-700 mr-2" />
+              <p>martimisu@mail.com</p>
+            </div>
+            <div className="flex">
+              <MapPin className="w-5 h-5 text-gray-700 mr-2" />
+              <p>Cairns, QLD</p>
+            </div>
           </div>
         </div>
         {/* FORM */}
-        <form className="w-full md:w-1/2 mt-10 md:mt-0">
+        <form className="w-full md:w-1/2 mt-16 md:mt-0">
+          <h4 className="font-medium">Do you have any specific request?</h4>
+          <p className="text-sm text-gray-700">Compile the form</p>
           <div className="pb-4 ">
             <div className="mt-4 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-2">
               <div className="col-span-1">
