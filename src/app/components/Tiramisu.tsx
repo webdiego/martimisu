@@ -21,7 +21,7 @@ export default function Tiramisu() {
           <div className="h-96 w-full md:order-first order-last">
             <S_1 className="fill-red-200 max-w-lg mx-auto" />
           </div>
-          <div className="h-96 p-5">
+          <div className="h-96">
             <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Classic tiramisu
             </h1>
@@ -37,7 +37,7 @@ export default function Tiramisu() {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 px-3 mt-32">
-          <div className="p-5 h-96 order-first md:order-last">
+          <div className="h-96 order-first md:order-last">
             <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Pistacchiomisu
             </h1>
@@ -61,7 +61,7 @@ export default function Tiramisu() {
           <div className=" h-96 w-full md:order-first order-last">
             <S_3 className="fill-yellow-200" />
           </div>
-          <div className="p-5 h-96">
+          <div className="h-96">
             <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Lemonsu
             </h1>
