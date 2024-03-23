@@ -1,7 +1,6 @@
 "use client";
-import { easeIn, motion } from "framer-motion";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+import { motion } from "framer-motion";
+
 export function Title() {
   const words = "Martimisu";
   const letters = words.split("");

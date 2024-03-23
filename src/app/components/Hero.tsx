@@ -8,6 +8,10 @@ export default function Hero() {
     hidden: { filter: "blur(10px)", opacity: 0 },
     visible: { filter: "blur(0px)", opacity: 1 },
   };
+  const variantY = {
+    hidden: { y: -100, opacity: 0 },
+    visible: { y: 0, opacity: 1 },
+  };
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8 h-screen">
       <div
@@ -32,22 +36,26 @@ export default function Hero() {
             variants={variants1}
             className="flex flex-col items-center h-full"
           >
-            <p className="mt-6 text-lg leading-8 text-gray-600 font-medium">
+            <p className="mt-4 text-2xl leading-8 text-gray-600 font-medium font-gaegu">
               Discover the Artisanal Paradise of Our Tiramisu!
             </p>
-            <p className="mt-2 text-base leading-8 text-gray-600">
-              Experience the artisanal bliss of our tiramisu: a decadent delight
-              meticulously crafted with the finest ingredients and authentic
-              Italian tradition
-            </p>
-
-            <a href="#tiramisu">
-              <CircleArrowDown
-                strokeWidth={1.5}
-                className="animate-bounce w-8 h-8 text-gray-700 mt-44"
-              />
-            </a>
+            {/* <p className="mt-2 text-base leading-8 text-gray-600">
+              Indulge in our artisanal tiramisu: a decadent delight crafted with
+              authentic Italian tradition and the finest ingredients.
+            </p> */}
           </motion.div>
+          <motion.a
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 1, delay: 2 }}
+            variants={variantY}
+            href="#tiramisu"
+          >
+            <CircleArrowDown
+              strokeWidth={1.5}
+              className="animate-bounce w-8 h-8 text-gray-700 mt-44"
+            />
+          </motion.a>
         </div>
       </div>
 
