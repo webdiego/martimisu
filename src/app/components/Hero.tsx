@@ -26,24 +26,27 @@ export default function Hero() {
           }}
         />
       </div>
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-        <div className="text-center flex flex-col items-center">
-          <Title />
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            transition={{ duration: 1, delay: 1 }}
-            variants={variants1}
-            className="flex flex-col items-center h-full"
-          >
-            <p className="mt-4 text-2xl leading-8 text-gray-600 font-medium font-gaegu">
-              Discover the Artisanal Paradise of Our Tiramisu!
-            </p>
-            {/* <p className="mt-2 text-base leading-8 text-gray-600">
+      <div className="mx-auto max-w-2xl h-full">
+        <div className="text-center h-full flex flex-col items-center justify-between">
+          <div className=""></div>
+          <div className="self-center pt-10">
+            <Title />
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 1, delay: 1 }}
+              variants={variants1}
+              className="flex flex-col items-center h-full"
+            >
+              <p className="mt-4 text-2xl leading-8 text-gray-600 font-medium font-gaegu">
+                Discover the Artisanal Paradise of Our Tiramisu!
+              </p>
+              {/* <p className="mt-2 text-base leading-8 text-gray-600">
               Indulge in our artisanal tiramisu: a decadent delight crafted with
               authentic Italian tradition and the finest ingredients.
             </p> */}
-          </motion.div>
+            </motion.div>
+          </div>
           <motion.a
             initial="hidden"
             animate="visible"

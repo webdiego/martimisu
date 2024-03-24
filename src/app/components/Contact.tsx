@@ -4,7 +4,7 @@ import S_4 from "./shapes/S_4";
 import S_5 from "./shapes/S_5";
 export default function Contact() {
   return (
-    <div id="contact" className="max-w-5xl mx-auto px-3 py-36 relative">
+    <div id="contact" className="max-w-5xl mx-auto px-5 py-36 relative">
       <div className="absolute top-0">
         <S_4 className="fill-green-200 w-44 h-44" />
       </div>
@@ -101,7 +101,7 @@ export default function Contact() {
           <div className="mt-2 flex items-center justify-end gap-x-6">
             <button
               type="submit"
-              className="rounded-md bg-orange-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
+              className="rounded-md bg-orange-400 px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             >
               Send
             </button>

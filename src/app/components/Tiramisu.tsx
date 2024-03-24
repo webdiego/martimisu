@@ -6,7 +6,7 @@ import S_3 from "./shapes/S_3";
 export default function Tiramisu() {
   return (
     <div id="tiramisu" className="pt-10">
-      <div className="max-w-5xl mx-auto px-3 flex flex-col items-center">
+      <div className="max-w-5xl mx-auto px-5 flex flex-col items-center">
         <h3 className="text-4xl md:text-6xl font-gaegu font-bold uppercase">
           Our tiramisu
         </h3>
@@ -17,11 +17,11 @@ export default function Tiramisu() {
         </p>
       </div>
       <div className="max-w-5xl mx-auto items-center justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-32 px-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-32 px-5">
           <div className="h-96 w-full md:order-first order-last">
             <S_1 className="fill-red-200 max-w-lg mx-auto" />
           </div>
-          <div className="h-96">
+          <div className="h-96 flex flex-col items-center justify-center md:items-start text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Classic tiramisu
             </h1>
@@ -36,8 +36,8 @@ export default function Tiramisu() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 px-3 mt-32">
-          <div className="h-96 order-first md:order-last">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-5 mt-32">
+          <div className="h-96 order-first md:order-last flex flex-col items-center justify-center md:items-start text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Pistacchiomisu
             </h1>
@@ -52,16 +52,16 @@ export default function Tiramisu() {
               each delightful bite.
             </p>
           </div>
-          <div className=" h-96 w-full md:order-last order-first">
-            {" "}
+          <div className=" h-96 w-full md:order-last order-first ">
             <S_2 className="fill-green-200" />
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 px-3 mt-32">
-          <div className=" h-96 w-full md:order-first order-last">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 px-5 mt-32">
+          <div className="h-96 w-full md:order-first order-last ">
             <S_3 className="fill-yellow-200" />
           </div>
-          <div className="h-96">
+          <div className="h-96 flex flex-col items-center justify-center md:items-start text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-gaegu font-bold text-gray-800">
               Lemonsu
             </h1>

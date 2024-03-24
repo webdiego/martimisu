@@ -5,7 +5,7 @@ export default function BehindScene() {
   return (
     <div
       id="behind"
-      className="max-w-5xl mx-auto px-3 flex flex-col items-center pt-36 relative"
+      className="max-w-5xl mx-auto px-5 flex flex-col items-center pt-36 relative"
     >
       <div className="absolute right-0 -bottom-40 -z-[10]">
         <S_6 className="fill-sky-200 w-44 h-44 opacity-80 " />

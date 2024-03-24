@@ -5,7 +5,7 @@ export default function Testimonials() {
   return (
     <div
       id="testimonials"
-      className="max-w-5xl mx-auto px-3 flex flex-col items-center pt-36 "
+      className="max-w-5xl mx-auto px-5 flex flex-col items-center pt-36 "
     >
       <h3 className="text-4xl md:text-6xl font-gaegu font-bold text-center uppercase">
         Greedy testimonials
