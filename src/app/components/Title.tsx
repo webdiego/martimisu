@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, stagger } from "framer-motion";
 
 export function Title() {
   const words = "Martimisu";
@@ -11,25 +11,25 @@ export function Title() {
       y: 0,
       opacity: 1,
       transition: {
-        delay: i * 0.08, // Delay each letter's animation
+        staggerChildren: 0.1,
       },
     }),
   };
 
   return (
     <div className="flex justify-center">
-      {letters.map((letter, i) => (
-        <motion.h1
-          key={i}
-          variants={textVariant}
-          initial="initial"
-          animate="animate"
-          custom={i}
-          className="text-7xl md:text-9xl font-bold tracking-tight sm:text-9xl font-gaegu text-gray-800 text-center drop-shadow-sm md:leading-[5rem] uppercase"
-        >
-          {letter === " " ? <span>&nbsp;</span> : letter}
-        </motion.h1>
-      ))}
+      <motion.h1 className="text-7xl md:text-9xl font-bold tracking-tight sm:text-9xl font-gaegu text-gray-800 text-center drop-shadow-sm md:leading-[5rem] uppercase">
+        {letters.map((letter, i) => (
+          <motion.span
+            key={i}
+            variants={textVariant}
+            initial="initial"
+            animate="animate"
+          >
+            {letter}
+          </motion.span>
+        ))}
+      </motion.h1>
     </div>
   );
 }

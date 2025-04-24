@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="mx-auto max-w-2xl h-full">
         <div className="text-center h-full flex flex-col items-center justify-between">
           <div className=""></div>
-          <div className="self-center pt-10">
+          <div className="self-center§ pt-10">
             <Title />
             <motion.div
               initial="hidden"
@@ -56,6 +56,7 @@ export default function Hero() {
           >
             <CircleArrowDown
               strokeWidth={1.5}
+              strokeLinecap="round"
               className="animate-bounce w-8 h-8 text-gray-700 mt-44"
             />
           </motion.a>

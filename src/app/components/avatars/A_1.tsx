@@ -36,7 +36,7 @@ export default function A_1() {
             d="M15 19c2 1 4 1 6 0"
             stroke="#000000"
             fill="none"
-            stroke-linecap="round"
+            strokeLinecap="round"
           ></path>
           <rect
             x="11"
